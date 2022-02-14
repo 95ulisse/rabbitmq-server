@@ -26,7 +26,8 @@
          clear_exchange_data_in_khepri/0, clear_durable_exchange_data_in_khepri/0,
          clear_exchange_serial_data_in_khepri/0]).
 -export([list_in_mnesia/2, list_in_khepri_tx/1, update_in_mnesia/2, update_in_khepri/2]).
--export([list_in_mnesia/1, list_in_khepri/1, store_in_khepri/2]).
+-export([list_in_mnesia/1, list_in_khepri/1, store_in_khepri/2,
+         lookup_as_list_in_khepri/1]).
 
 %%----------------------------------------------------------------------------
 

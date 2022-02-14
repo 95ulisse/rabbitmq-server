@@ -79,7 +79,7 @@
          set_ram_duration_target/2, set_maximum_since_use/2,
          emit_consumers_local/3, internal_delete/3]).
 
-%% For use by classic queue mirroring modules
+%% For use by classic queue mirroring modules and rabbit_binding
 -export([lookup_as_list_in_khepri/2]).
 -export([store_queue_in_khepri/1, store_queue_ram_in_khepri/1, store_queue_in_khepri/2]).
 
